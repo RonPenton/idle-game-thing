@@ -1,0 +1,30 @@
+{
+    "name": "idle-game-thing",
+    "version": "1.0.0",
+    "description": "Idle game thing.",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RonPenton/idle-game-thing.git"
+    },
+    "author": "Ron Penton",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RonPenton/idle-game-thing/issues"
+    },
+    "homepage": "https://github.com/RonPenton/idle-game-thing#readme",
+    "devDependencies": {
+        "css-loader": "^0.28.11",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.7",
+        "ts-loader": "^4.1.0",
+        "typescript": "^2.7.2",
+        "webpack": "^4.1.1",
+        "webpack-cli": "^2.0.12"
+    }
+}
